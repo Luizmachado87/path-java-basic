@@ -25,7 +25,7 @@ public class ContaTerminal {
         Scanner readingBalance = new Scanner(System.in);
 
         System.out.println("Enter your balance: ");
-        String balance = readingBalance.nextLine();
+        Double balance = readingBalance.nextDouble();
         System.out.println("Your available balance is: " + balance);
 
     }
